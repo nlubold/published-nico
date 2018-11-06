@@ -47,7 +47,8 @@
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/aspx/RedirectPage.aspx">Start Teaching</a></li>
+                                <li><a runat="server" href="~/aspx/Agent.aspx">Open Agent</a></li>
+                                <li><a runat="server" href="~/aspx/RedirectPage.aspx" target="_blank">Start Teaching</a></li>
                                 <li>Welcome, <asp:LoginName ID="LoginName1" runat="server" Font-Bold="true" /></li>
                                 <li><asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" /></li>
                             </ul>
